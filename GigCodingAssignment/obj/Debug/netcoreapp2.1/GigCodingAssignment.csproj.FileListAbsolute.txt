@@ -1,0 +1,16 @@
+C:\Users\Poulami\source\repos\gig-coding-assignment\GigCodingAssignment\GigCodingAssignment\bin\Debug\netcoreapp2.1\NUnit3.TestAdapter.dll
+C:\Users\Poulami\source\repos\gig-coding-assignment\GigCodingAssignment\GigCodingAssignment\bin\Debug\netcoreapp2.1\NUnit3.TestAdapter.pdb
+C:\Users\Poulami\source\repos\gig-coding-assignment\GigCodingAssignment\GigCodingAssignment\bin\Debug\netcoreapp2.1\nunit.engine.netstandard.dll
+C:\Users\Poulami\source\repos\gig-coding-assignment\GigCodingAssignment\GigCodingAssignment\bin\Debug\netcoreapp2.1\Mono.Cecil.dll
+C:\Users\Poulami\source\repos\gig-coding-assignment\GigCodingAssignment\GigCodingAssignment\bin\Debug\netcoreapp2.1\TechTalk.SpecFlow.NUnit.SpecFlowPlugin.dll
+C:\Users\Poulami\source\repos\gig-coding-assignment\GigCodingAssignment\GigCodingAssignment\bin\Debug\netcoreapp2.1\GigCodingAssignment.deps.json
+C:\Users\Poulami\source\repos\gig-coding-assignment\GigCodingAssignment\GigCodingAssignment\bin\Debug\netcoreapp2.1\GigCodingAssignment.runtimeconfig.json
+C:\Users\Poulami\source\repos\gig-coding-assignment\GigCodingAssignment\GigCodingAssignment\bin\Debug\netcoreapp2.1\GigCodingAssignment.runtimeconfig.dev.json
+C:\Users\Poulami\source\repos\gig-coding-assignment\GigCodingAssignment\GigCodingAssignment\bin\Debug\netcoreapp2.1\GigCodingAssignment.dll
+C:\Users\Poulami\source\repos\gig-coding-assignment\GigCodingAssignment\GigCodingAssignment\bin\Debug\netcoreapp2.1\GigCodingAssignment.pdb
+C:\Users\Poulami\source\repos\gig-coding-assignment\GigCodingAssignment\GigCodingAssignment\obj\Debug\netcoreapp2.1\GigCodingAssignment.csprojAssemblyReference.cache
+C:\Users\Poulami\source\repos\gig-coding-assignment\GigCodingAssignment\GigCodingAssignment\obj\Debug\netcoreapp2.1\GigCodingAssignment.csproj.CoreCompileInputs.cache
+C:\Users\Poulami\source\repos\gig-coding-assignment\GigCodingAssignment\GigCodingAssignment\obj\Debug\netcoreapp2.1\GigCodingAssignment.AssemblyInfoInputs.cache
+C:\Users\Poulami\source\repos\gig-coding-assignment\GigCodingAssignment\GigCodingAssignment\obj\Debug\netcoreapp2.1\GigCodingAssignment.AssemblyInfo.cs
+C:\Users\Poulami\source\repos\gig-coding-assignment\GigCodingAssignment\GigCodingAssignment\obj\Debug\netcoreapp2.1\GigCodingAssignment.dll
+C:\Users\Poulami\source\repos\gig-coding-assignment\GigCodingAssignment\GigCodingAssignment\obj\Debug\netcoreapp2.1\GigCodingAssignment.pdb
