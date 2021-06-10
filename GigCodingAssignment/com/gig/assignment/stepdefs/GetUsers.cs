@@ -27,17 +27,17 @@ namespace GigCodingAssignment.com.gig.assignment.stepdefs
         {
             response = RestActions.Get(endpoint);
             //Verifying that user has got the response from the Server
-            Assert.IsNotNull(response, "The Response from the API is null for GET all users");
+            Assert.IsNotNull(response, "The Response from the API is null for Get all users");
             //Adding the response to the ScenarioContext to access from Common Step Defs
-            _scenarioContext.Add("RESPONSE", response);
+            _scenarioContext.Add(ContextKeys.RESPONSE, response);
         }
 
         [Then("the user gets a list of users")]
         public void verifyUsersList()
         {
-            GetUsersResponse users = JsonActions.getObjectFromResponse<GetUsersResponse>(response);
+            GetUsersResponse users = JsonActions.GetObjectFromResponse<GetUsersResponse>(response);
             //Verifying that the list is not empty
-            Assert.That(users.Data.Count >= 1);
+            Assert.That(users.data.Count >= 1);
         }
     }
 }

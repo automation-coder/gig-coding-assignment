@@ -1,4 +1,5 @@
-﻿using RestSharp;
+﻿using Newtonsoft.Json;
+using RestSharp;
 using System;
 using System.Collections.Generic;
 using System.Text;
@@ -18,15 +19,15 @@ namespace GigCodingAssignment.com.gig.assignment.util
             }
         }
 
-        public static IRestResponse Post(Object body)
+        public static IRestResponse Post(string endpoint, Object requestObj)
         {
-            request = new RestRequest("register", Method.POST);
+            request = new RestRequest(endpoint, Method.POST);
             request.RequestFormat = DataFormat.Json;
-            request.AddJsonBody(body);
+            request.AddJsonBody(JsonActions.GetJsonStringFromObject(requestObj));
             return client.Execute(request);
         }
 
-        public static IRestResponse Get(String endpoint)
+        public static IRestResponse Get(string endpoint)
         {
             request = new RestRequest(endpoint, Method.GET);
             return client.Execute(request);

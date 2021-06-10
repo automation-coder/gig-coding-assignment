@@ -28,7 +28,7 @@ namespace GigCodingAssignment.com.gig.assignment.stepdefs
         [Then("the user gets the response code (.*)")]
         public void VerifyResponseCode(int statusCode)
         {
-            var response = _scenarioContext.Get<IRestResponse>("RESPONSE");
+            var response = _scenarioContext.Get<IRestResponse>(ContextKeys.RESPONSE);
             int statusCodeInResponse = (int) response.StatusCode;
             Assert.AreEqual(statusCode, statusCodeInResponse);
         }

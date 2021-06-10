@@ -25,6 +25,9 @@
     <Compile Update="com\gig\assignment\stepdefs\GetUsers.cs">
       <SubType>Code</SubType>
     </Compile>
+    <Compile Update="com\gig\assignment\stepdefs\RegisterUser.cs">
+      <SubType>Code</SubType>
+    </Compile>
   </ItemGroup>
 
 </Project>
