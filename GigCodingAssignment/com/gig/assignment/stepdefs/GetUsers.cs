@@ -26,8 +26,7 @@ namespace GigCodingAssignment.com.gig.assignment.stepdefs
         public void GetAllUsers(String endpoint)
         {
             response = RestActions.Get(endpoint);
-            //Verifying that user has got the response from the Server
-            Assert.IsNotNull(response, "The Response from the API is null for Get all users");
+            //Can be addedd an Assert statement to check any exception in Response
             //Adding the response to the ScenarioContext to access from Common Step Defs
             _scenarioContext.Add(ContextKeys.RESPONSE, response);
         }

@@ -10,6 +10,7 @@ namespace GigCodingAssignment.com.gig.assignment.util
     {
         private static RestClient client = null;
         private static RestRequest request;
+        private static IRestResponse response = new RestResponse();
         
         public static void Initialize(String baseUrl)
         {
@@ -24,14 +25,28 @@ namespace GigCodingAssignment.com.gig.assignment.util
             request = new RestRequest(endpoint, Method.POST);
             request.RequestFormat = DataFormat.Json;
             request.AddJsonBody(JsonActions.GetJsonStringFromObject(requestObj));
-            return client.Execute(request);
+            return Execute(request);
         }
 
         public static IRestResponse Get(string endpoint)
         {
             request = new RestRequest(endpoint, Method.GET);
-            return client.Execute(request);
+            return Execute(request);
         }
 
+        private static IRestResponse Execute(RestRequest request)
+        {
+            try
+            {
+                response = client.Execute(request);
+            }
+            catch(Exception exception)
+            {
+                //Adding the Exception details to the response
+                response.ErrorException = exception;
+                response.ErrorMessage = exception.Message;
+            }
+            return response;
+        }
     }
 }
